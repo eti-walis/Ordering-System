@@ -1,0 +1,101 @@
+﻿<Window x:Class="UI.addGuestRequest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="addGuestRequest" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder1/אננס.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="84*"/>
+            <RowDefinition Height="27*"/>
+            <RowDefinition Height="57*"/>
+            <RowDefinition Height="83*"/>
+            <RowDefinition Height="84*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock x:Name="textBlock"  Grid.Column="3" FlowDirection="RightToLeft" HorizontalAlignment="Left" Margin="22.8,8,-0.4,0" TextWrapping="Wrap" Text="מלאו את הפרטים הבאים כדי שנוכל להתאים לכם את החופשה שלכם" VerticalAlignment="Top" Height="68" FontWeight="Bold" Foreground="Black">
+            <TextBlock.Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Foreground" Value="Blue"></Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Foreground" Value="Red" />
+                            <Setter Property="TextDecorations" Value="Underline" />
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </TextBlock.Style>
+        </TextBlock>
+        <Label Content=":מחיר מקסימלי ללילה"  HorizontalAlignment="Right" VerticalAlignment="Top" Width="127" Height="36" Grid.Row="3" Grid.RowSpan="2" FontWeight="Bold" Margin="0,54.8,15.4,0"/>
+        <Label Content=":גינה" Grid.Column="1" HorizontalAlignment="Left" Margin="155.6,1,0,0" VerticalAlignment="Top" Width="40" Height="30" Grid.Row="2" Grid.RowSpan="2" FontWeight="Bold"/>
+        <Label Content=":יום כניסה" Grid.Column="2" Margin="120.2,0,8.2,46" VerticalAlignment="Bottom" Height="36" RenderTransformOrigin="0.214,0.371" FontWeight="Bold" Grid.Row="1"/>
+        <Label Content=":שם פרטי" Grid.Column="3" Margin="127.8,7,-0.4,40" Grid.Row="1" FontWeight="Bold"/>
+        <Label Content=":שם משפחה" Grid.Column="3" HorizontalAlignment="Left" Margin="112,0,0,0" Grid.Row="2" VerticalAlignment="Top" Width="79" Height="30" RenderTransformOrigin="2.66,0.404" Grid.RowSpan="2" FontWeight="Bold"/>
+        <Label Content=":דואר אלקטרוני" Grid.Column="3" HorizontalAlignment="Left" Margin="89,0,0,0" Grid.Row="4" VerticalAlignment="Top" Height="28" Width="101" FontWeight="Bold"/>
+        <Label Content=":מספר זוגות" Grid.Column="2" HorizontalAlignment="Left" Margin="110.2,2.2,0,0" Grid.Row="4" VerticalAlignment="Top" Width="92" Height="36" RenderTransformOrigin="1.911,0.34" Grid.ColumnSpan="2" FontWeight="Bold"/>
+        <Label Content=":מספר יחידים" Grid.Column="2" HorizontalAlignment="Left" Margin="105.2,78.2,0,0" Grid.Row="4" VerticalAlignment="Top" Width="85" Height="34" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label Content=":יום יציאה" Grid.Column="2" HorizontalAlignment="Left" Margin="123.2,2,0,0" VerticalAlignment="Top" Height="30" Width="74" Grid.Row="2" RenderTransformOrigin="0.519,-0.234" Foreground="Black" Grid.RowSpan="2" FontWeight="Bold">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.328"/>
+                    <TranslateTransform X="0.126" Y="0.009"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Label Content=":אזור הנופש" Grid.Column="1" HorizontalAlignment="Left" Margin="101.6,13,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.416,-0.82" Height="27" Width="83" FontWeight="Bold"/>
+        <Label Content=":בריכה" Margin="138,9,12.4,44" FontWeight="Bold"/>
+        <Label Content=":ג'קוזי" Grid.Column="1" HorizontalAlignment="Left" Margin="146.6,0,0,50" Grid.Row="1" Width="51" RenderTransformOrigin="1.495,0.399" FontWeight="Bold"/>
+        <Label Content=":אטרקציות לילדים" Grid.Column="1" Margin="82,0,197,0" VerticalAlignment="Top" Grid.Row="4" FontWeight="Bold" Grid.ColumnSpan="2"/>
+        <Label Content=":ארוחת בוקר" HorizontalAlignment="Left" Margin="109,0,0,0" Grid.Row="5" VerticalAlignment="Top" Height="27" Width="79" Grid.Column="1" FontWeight="Bold"/>
+        <Label Content=":סוג יחידת האירוח" HorizontalAlignment="Left" Margin="65,1,0,0" VerticalAlignment="Top" Height="36" Width="114" FontWeight="Bold" RenderTransformOrigin="0.487,1.218" Grid.Row="1"/>
+        <Label Content=":מחיר מינימלי ללילה" HorizontalAlignment="Left" Margin="69,12,0,0" VerticalAlignment="Top" Height="34" Width="127" Grid.Row="2" FontWeight="Bold" Grid.RowSpan="2"/>
+        <Label Content=":תאריך רישום" Grid.Row="5" VerticalAlignment="Top" Height="30" Margin="101.8,3,9.6,0" Grid.Column="3" FontWeight="Bold"/>
+        <Button Content="אישור" BorderThickness="3" HorizontalAlignment="Left" Grid.Row="5" VerticalAlignment="Top" Width="138" RenderTransformOrigin="-0.255,-0.456" Height="44" Margin="40,18,0,0" FontWeight="Bold" Click="addGuestRequets_button" Background="#FFE4D3D3"/>
+        <ComboBox x:Name="pool" Text="{Binding Pool}" ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="46,47,0,0" VerticalAlignment="Top" Width="138" Height="28"/>
+
+        <ComboBox x:Name="area" Text="{Binding Area}" ItemsSource="{Binding}" Grid.Column="1" HorizontalAlignment="Left" Margin="49.6,45,0,0" VerticalAlignment="Top" Width="138" Height="28"/>
+        <ComboBox x:Name="jacuzzi" Text="{Binding Jacuzzi}" ItemsSource="{Binding}" Grid.Column="1" HorizontalAlignment="Left" Margin="50,39,0,0" Grid.Row="1" VerticalAlignment="Top" Width="138" Height="28" />
+        <ComboBox x:Name="garden" Text="{Binding Garden}" ItemsSource="{Binding}" Grid.Column="1" HorizontalAlignment="Left" Margin="50,10,0,0" VerticalAlignment="Top" Width="138" Height="28" Grid.Row="3" />
+        <ComboBox x:Name="childrensAttractions" Text="{Binding ChildrensAttractions}" ItemsSource="{Binding}" Grid.Column="1" HorizontalAlignment="Left" Margin="50,31,0,0" Grid.Row="4" VerticalAlignment="Top" Width="138" Height="28"/>
+        <CheckBox x:Name="breakfast" Content="" IsChecked="{Binding breakfast, Converter={StaticResource yesNoStatusToBool}}"  Grid.Column="1" HorizontalAlignment="Left" Margin="87,7,0,0" VerticalAlignment="Top" Grid.Row="5" Height="50" Width="22"/>
+        <ComboBox x:Name= "typeOfHostungUnit"  Text="{Binding Type}"  ItemsSource="{Binding}" HorizontalAlignment="Left" Margin="46,43,0,0" VerticalAlignment="Top" Width="138" Height="28" Grid.Row="1"/>
+        <TextBox x:Name="signals" FlowDirection="RightToLeft" Text="{Binding Singles}" Width="138" Height="28" Grid.Column="2" HorizontalAlignment="Left"  Margin="49.2,29,0,27" Grid.Row="5" TextWrapping="Wrap" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Background="{x:Null}" PreviewTextInput="Signals_PreviewTextInput" />
+        <TextBox x:Name="email" Text="{Binding MailAddress}" Grid.Column="3" Width="138" Height="28" HorizontalAlignment="Left" Margin="49.8,26.2,0,29"  Grid.Row="4" TextWrapping="Wrap" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Background="{x:Null}" />
+        <TextBox x:Name="couples" Text="{Binding Couples}" Grid.Column="2" Width="138" HorizontalAlignment="Left"  Margin="51.2,31.2,0,24" Grid.Row="4" TextWrapping="Wrap" BorderBrush="{DynamicResource {x:Static SystemColors.ActiveCaptionTextBrushKey}}" Background="{x:Null}" PreviewTextInput="Couples_PreviewTextInput"  />
+        <TextBox x:Name="Name"  Text="{Binding PrivateName}" FlowDirection="RightToLeft" Grid.Column="3" Width="138" Height="28" HorizontalAlignment="Left" Margin="52.8,38,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Background="{x:Null}" BorderBrush="Black" PreviewTextInput="Name_PreviewTextInput_1" Foreground="Black"/>
+        <TextBox x:Name="familyName" FlowDirection="RightToLeft" Text="{Binding FamilyName}" Grid.Column="3" Width="138" Height="28" HorizontalAlignment="Left" Margin="51.8,10.8,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" SelectionBrush="#FFFDE71F" Background="{x:Null}" BorderBrush="Black" RenderTransformOrigin="0.5,0.214" PreviewTextInput="FamilyName_PreviewTextInput" Foreground="Black" />
+
+        <TextBox x:Name="minPrice" FlowDirection="RightToLeft" Text="{Binding minPrice}" HorizontalAlignment="Left" Margin="46,13.8,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top"  Width="138" Height="28"  RenderTransformOrigin="0.413,0.479" Background="{x:Null}" BorderBrush="Black" PreviewTextInput="MinPrice_PreviewTextInput"/>
+        <TextBox x:Name="maxPrice" FlowDirection="RightToLeft" Text="{Binding maxPrice}" HorizontalAlignment="Left" Height="28" Margin="46,32.2,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="138" RenderTransformOrigin="0.552,0.557" Background="{x:Null}" BorderBrush="Black" PreviewTextInput="MaxPrice_PreviewTextInput" />
+        <Label Content="Trip Net" HorizontalAlignment="Left" Margin="123,158,0,-152" Grid.Row="5" VerticalAlignment="Top" RenderTransformOrigin="-0.545,0.383" Grid.ColumnSpan="2" Width="199" FontSize="55" Height="78" Foreground="#FFFF9910" FontWeight="Bold" FontFamily="Blackadder ITC">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleY="0.528"/>
+                    <RotateTransform Angle="-89.314"/>
+                    <TranslateTransform X="-2.035" Y="-0.029"/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <DatePicker x:Name="entryDay"  Grid.Column="2" HorizontalAlignment="Left" Margin="48.2,41,0,0" VerticalAlignment="Top" Width="147" Grid.Row="1" RenderTransformOrigin="0.584,0.271" />
+        <DatePicker x:Name="releaseDay"  Grid.Column="2" HorizontalAlignment="Left" Margin="50.2,10.8,0,0" Grid.Row="3" VerticalAlignment="Top" Width="148"/>
+        <Label x:Name="namei" Content="{Binding RegistrationDate }" Foreground="Black" Grid.Column="3" HorizontalAlignment="Left" Margin="90.8,30,0,0" Grid.Row="5" VerticalAlignment="Top" Width="102" Height="23" FontWeight="Bold"/>
+        <Label Content=":מספר בקשה" Grid.Column="2" HorizontalAlignment="Left" Margin="95.2,14,0,0" VerticalAlignment="Top" Width="87" Height="27" RenderTransformOrigin="0.52,0.32" FontWeight="Bold"/>
+        <Label x:Name="GuestRequestKey" Foreground="Black" Grid.Column="2" HorizontalAlignment="Left" Margin="70.2,39,0,0" VerticalAlignment="Top" Width="97" Height="38" FontWeight="Bold" RenderTransformOrigin="4.461,48.65"/>
+
+    </Grid>
+</Window>
+

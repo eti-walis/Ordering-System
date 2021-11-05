@@ -1,0 +1,19 @@
+﻿<Window x:Class="UI.SuccedUpdateDelete"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d" 
+        Title="SuccedUpdateDelete" Height="300" Width="400">
+    <Grid Margin="0,0,-4.4,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder1/99.png"/>
+        </Grid.Background>
+        <Label x:Name="delete" Content="!היחידה נמחקה בהצלחה" Visibility="Hidden" Foreground="#FFD8ACAC" HorizontalAlignment="Left" Margin="27,17,-6,0" VerticalAlignment="Top" Width="377" Height="66" FontSize="24" FontWeight="Bold"/>
+        <Button Content="חזרה לתפריט הראשי" Background="#FF2F520D" HorizontalAlignment="Left" Margin="101,228,0,0" VerticalAlignment="Top" Width="188" Height="30" Foreground="White" BorderBrush="Black" Click="Button_Click"/>
+        <Label x:Name="update"  Content="!פרטי היחידה עודכנו בהצלחה" Foreground="#FFD8ACAC" Visibility="Hidden" HorizontalAlignment="Left"  Width="377" Height="66" Margin="27,17,-6,0" VerticalAlignment="Top"  FontSize="24" FontWeight="Bold"/>
+
+    </Grid>
+
+</Window>

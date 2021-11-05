@@ -1,0 +1,24 @@
+﻿<Window x:Class="UI.Successful"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="Successful" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder1/99.png"/>
+        </Grid.Background>
+        <Label x:Name="lableForHostingUnit" Content="!!היחידה התווספה בהצלחה" HorizontalAlignment="Left" Margin="199,39,0,0" VerticalAlignment="Top" Height="79" Width="433" FontWeight="Bold" FontSize="36" Foreground="#FFD8ACAC" Visibility="Hidden"/>
+        <Label x:Name="תודה_שבחרתם_להשתמש_ב" Content="תודה שבחרתם להשתמש ב" HorizontalAlignment="Left" Margin="76,110,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="20" Width="269" />
+        <Label x:Name="TripNet" Content="TripNet" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" FontFamily="Blackadder ITC" FontWeight="Bold" FontSize="20" Width="84" />
+        <Button x:Name="לתפריט_הראשי" Content="לתפריט הראשי" BorderThickness="2" HorizontalAlignment="Left" Margin="27,351,0,0" VerticalAlignment="Top" Width="129" Height="45" Click="לתפריט_הראשי_Click" Background="#FF2F520D" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="Black"/>
+        <Button x:Name="ButtonForHostingUnit" Content="לתפריט מארח" BorderThickness="2" HorizontalAlignment="Left" Margin="187,350,0,0" VerticalAlignment="Top" Width="129" Height="45" Click="לתפריט_מארח_Click" Background="#FF2F520D" FontWeight="Bold" FontSize="16" Foreground="White" BorderBrush="Black" Visibility="Hidden"/>
+        <Label x:Name="lableForGuestRequst" Content="!!בקשתך התקבלה בהצלחה" Foreground="#FFD8ACAC" HorizontalAlignment="Left" Margin="162,34,0,0" VerticalAlignment="Top" Width="470" Height="55" FontWeight="Bold" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="labelForGuestRequest2" Content="מייל יישלח אליך כשתמצא עבורך יחידת אירוח מתאימה" HorizontalAlignment="Left" Margin="40,89,0,0" VerticalAlignment="Top" FontWeight="Bold"  Visibility="Hidden"/>
+        <Label x:Name="labelForOrder1" Foreground="#FFD8ACAC" Content="!!ההזמנה התווספה בהצלחה" HorizontalAlignment="Left" Margin="162,29,0,0" VerticalAlignment="Top" Width="461" Height="55" FontWeight="Bold" FontSize="36" Visibility="Hidden"/>
+        <Label x:Name="labelForOrder2" Content="מייל נשלח אליך ברגעים אלו עם פרטי ההזמנה" HorizontalAlignment="Left" Margin="40,92,0,0" VerticalAlignment="Top" Width="305" FontWeight="Bold" FontSize="14" Visibility="Hidden"/>
+        <Label x:Name="labelForComment" Content="!!התגובה התווספה בהצלחה" Foreground="#FFD8ACAC" HorizontalAlignment="Left" Margin="172,32,0,0" VerticalAlignment="Top"  Width="489" Height="55" FontSize="36" FontWeight="Bold" Visibility="Hidden"/>
+    </Grid>
+</Window>

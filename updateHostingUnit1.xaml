@@ -1,0 +1,67 @@
+﻿<Window x:Class="UI.updateHostingUnit1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="updateHostingUnit1" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder1/image.png"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="105*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="56*"/>
+            <RowDefinition Height="106*"/>
+            <RowDefinition Height="105*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content=":סוג יחידת הארוח" Grid.Column="3" HorizontalAlignment="Left" Margin="83.8,3.2,0,0" Grid.Row="1" VerticalAlignment="Top" Height="26" Width="110" FontWeight="Bold" Foreground="#FFFFFCFC"/>
+        <Label Content=":שם יחידת האירוח" Grid.Column="3" HorizontalAlignment="Left" Margin="84.8,2,-0.4,0" VerticalAlignment="Top" RenderTransformOrigin="-0.28,5.347" Width="114" FontWeight="Bold" Background="{x:Null}" Foreground="#FFFFF9F9"/>
+
+        <Label Content=":מספר המיטות הבודדות" HorizontalAlignment="Left" Margin="58.2,1,0,0" VerticalAlignment="Top" Grid.Column="2" FontWeight="Bold" Background="{x:Null}" Foreground="#FFFFFDFD"/>
+        <Label Content=":מספר חדרים זוגיים" Grid.Column="2" HorizontalAlignment="Left" Margin="83.2,7.2,0,15.6" Grid.Row="1" Width="116" FontWeight="Bold" Grid.ColumnSpan="2" Foreground="#FFFFFCFC"/>
+        <Label Content=":אטרקציות לילדים" Grid.Column="2" HorizontalAlignment="Left" Margin="84.2,0.4,0,0" Grid.Row="3" VerticalAlignment="Top" FontWeight="Bold" Width="114" Foreground="#FFFFFCFC"/>
+        <Label Content=":גינה" Grid.Column="1" HorizontalAlignment="Right" Margin="0,0.2,3.8,0" Grid.Row="1" VerticalAlignment="Top" Width="40" Height="29" FontWeight="Bold" Foreground="#FFFFFCFC"/>
+        <Label Content=":ג'קוזי" HorizontalAlignment="Left" Margin="143,1,0,0" VerticalAlignment="Top" Width="45" FontWeight="Bold" Foreground="#FFFFFCFC"/>
+        <Label Content=":בריכה" Grid.Column="1" HorizontalAlignment="Left" Margin="143.6,1.4,0,0" Grid.Row="3" VerticalAlignment="Top" Width="57" Grid.ColumnSpan="2" FontWeight="Bold" Foreground="#FFFFFCFC"/>
+        <Label Content=":מחיר ללילה" HorizontalAlignment="Left" Margin="113,104,0,0" VerticalAlignment="Top" Width="81" Height="43" FontWeight="Bold" Grid.RowSpan="2" Foreground="#FFFFFCFC"/>
+        <Label Content=":ארוחת בוקר" Grid.Column="1" HorizontalAlignment="Right" Height="26" Margin="0,-2,0.8,0" VerticalAlignment="Top" RenderTransformOrigin="-5.34,-6.567" FontWeight="Bold" Width="85" Foreground="#FFFFFCFC"/>
+        <Label Content=":אזור" Grid.Column="2" HorizontalAlignment="Left" Margin="148.2,102.4,0,0" Grid.Row="3" VerticalAlignment="Top" Height="39" Width="49" FontWeight="Bold" RenderTransformOrigin="0.284,-2.046" Grid.RowSpan="2" Foreground="#FFFFFCFC"/>
+        <Button Content="המשך" HorizontalAlignment="Left" Margin="36,36.8,0,0" Grid.Row="4" VerticalAlignment="Top" Width="183" Height="53" FontSize="22" FontWeight="Bold" Grid.ColumnSpan="2" BorderBrush="Black" Background="#FFC15C22" Click="Button_Click"/>
+        <ComboBox x:Name="type"  Text="{Binding type}"  Grid.Column="3" HorizontalAlignment="Left" Margin="10.8,38.2,0,0" Grid.Row="1" VerticalAlignment="Top" Width="183"  Height="36" Grid.RowSpan="2" />
+        <ComboBox x:Name="pool" Text="{Binding pool}" HorizontalAlignment="Left" Margin="7.6,33.4,0,0" Grid.Row="3" VerticalAlignment="Top" Width="183" Height="36" Grid.Column="1"/>
+        <ComboBox x:Name="garden" Text="{Binding Garden}" Grid.Column="1" HorizontalAlignment="Left" Margin="8.6,40.2,0,0" Grid.Row="1" VerticalAlignment="Top" Width="183" Height="36" Grid.RowSpan="2"/>
+        <ComboBox  x:Name="breakfast" Text="{Binding Breakfast}" HorizontalAlignment="Left" Margin="8.6,44,0,0" VerticalAlignment="Top" Width="183" Height="36" Grid.Column="1" Foreground="#FFBF8383" BorderBrush="#FF7C4242"/>
+        <ComboBox x:Name="jacuzzi" Text="{Binding Jacuzzi}" HorizontalAlignment="Left" Margin="10,44,0,0" VerticalAlignment="Top" Width="183" Height="36"/>
+
+        <ComboBox x:Name="area" Text="{Binding Area}" HorizontalAlignment="Left" Margin="9.2,36.8,0,0" Grid.Row="4" VerticalAlignment="Top" Width="183" Height="36" RenderTransformOrigin="0.54,0.48" Grid.Column="2"/>
+        <TextBox  x:Name="name" Text="{Binding HostingUnitName}" Grid.Column="3" HorizontalAlignment="Left" Height="39" Margin="29.8,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.521,0.27" Background="{x:Null}" BorderBrush="#FFF9F6F6" Foreground="#FFF6F4F4"/>
+        <TextBox  x:Name="numOfBeds" Text="{Binding numOfBeds}" Grid.Column="2" HorizontalAlignment="Left" Height="39" Margin="26.2,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" RenderTransformOrigin="0.514,0.281" Background="{x:Null}" BorderBrush="White" Foreground="#FFFDF3F3"/>
+        <TextBox x:Name="priceForNight" Text="{Binding priceForNight}" HorizontalAlignment="Left" Height="39" Margin="36,36.2,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" BorderBrush="White" Background="{x:Null}" Grid.RowSpan="2"/>
+        <TextBox x:Name="numOfRoomsFor2" Text="{Binding numOfRoomsForTwo}"  HorizontalAlignment="Left" Height="39" Margin="28.2,38.2,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Background="{x:Null}" BorderBrush="White" Grid.Column="2" Grid.Row="1" Grid.RowSpan="2" Foreground="#FFFFF1F1"/>
+        <Label Content="Trip Net" HorizontalAlignment="Left" Margin="-53,104,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="172" FontSize="36" FontWeight="Bold" FontFamily="Blackadder ITC" Foreground="#FFFF9910" Height="74" Grid.RowSpan="3">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-89.315"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <ComboBox x:Name="childrenAttraction" Text="{Binding ChildrensAttractions}"   Grid.Column="2" HorizontalAlignment="Left" Margin="12.2,34.4,0,0" Grid.Row="3" VerticalAlignment="Top"  Width="183" Height="36" />
+        <Label Content=":עיר" Grid.Column="3" HorizontalAlignment="Left" Margin="144.8,3.4,0,0" Grid.Row="3" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFF7EEEE" FontWeight="Bold"/>
+        <Label Content=":רחוב" Grid.Column="3" HorizontalAlignment="Left" Margin="137.8,9.8,0,0" Grid.Row="4" VerticalAlignment="Top" Foreground="#FFF7E9E9" FontWeight="Bold"/>
+        <TextBox Grid.Column="3" Text="{Binding city}" HorizontalAlignment="Left" Height="39" Margin="29.8,37.4,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Background="{x:Null}" Foreground="#FFFAEEEE"/>
+        <TextBox Grid.Column="3" Text="{Binding address}" HorizontalAlignment="Left" Height="39" Margin="33.8,39.8,0,0" Grid.Row="4" TextWrapping="Wrap" VerticalAlignment="Top" Width="159" Background="{x:Null}" Foreground="#FFFAF2F2"/>
+
+    </Grid>
+</Window>

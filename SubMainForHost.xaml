@@ -1,0 +1,51 @@
+﻿<Window x:Class="UI.SubMainForHost"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UI"
+        mc:Ignorable="d"
+        Title="SubMainForHost" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="NewFolder1/image.png"/>
+        </Grid.Background>
+        <Button  BorderThickness="3" Content="הוסיפו את  יחידת האירוח שלכם" HorizontalAlignment="Left" Margin="546,48,0,0" VerticalAlignment="Top" Width="222" Height="50"  BorderBrush="White" Foreground="White" FontWeight="Bold" FontSize="14" Click="AddHostingUnit_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+        <Button  BorderThickness="3" Content="מחקו את יחידת האירוח שלכם" HorizontalAlignment="Left" Margin="546,184,0,0" VerticalAlignment="Top" Width="217" Height="50" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="White" Click="DeleteHostingUnit_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+        <Button  BorderThickness="3" Content="להוספת הזמנה" HorizontalAlignment="Left" Margin="72,48,0,0" VerticalAlignment="Top" Width="218" Height="50"  Foreground="White" FontWeight="Bold" FontSize="14" OpacityMask="White" BorderBrush="White" Click="AddOrder_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+        <Button  BorderThickness="3" Content="עדכנו את יחידת האירוח שלכם" HorizontalAlignment="Left" Margin="546,306,0,0" VerticalAlignment="Top" Width="216" Height="50"  Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="White" Click="UpdateHostingUnit_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="לצפייה ביחידות האירוח שלי" BorderThickness="3" HorizontalAlignment="Left" Margin="72,184,0,0" VerticalAlignment="Top"  Width="222" Height="50" Foreground="White" FontWeight="Bold" FontSize="14" BorderBrush="White" Click="Button_Click"  >
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="לצפייה בהזמנות שלי" BorderThickness="3" HorizontalAlignment="Left" Margin="72,306,0,0" VerticalAlignment="Top" Width="230" Height="54" RenderTransformOrigin="-0.247,0.852" Foreground="#FFF4EDED" FontWeight="Bold" FontSize="14" BorderBrush="White" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+        <Label Content=":מספר מארח" HorizontalAlignment="Left" Margin="386,30,0,0" VerticalAlignment="Top" Width="155" Height="39" Background="{x:Null}" Foreground="White" FontWeight="Bold"/>
+        <Label x:Name="hostKey" HorizontalAlignment="Left" Margin="349,74,0,0" VerticalAlignment="Top" Width="147" Foreground="White" Height="50"/>
+        <Button x:Name="button" Content="לצפייה בכל בקשות הלקוח" BorderThickness="3" HorizontalAlignment="Left" Margin="311,306,0,0" VerticalAlignment="Top" Height="54" Width="230" Foreground="#FFF4EDED" BorderBrush="#FFF9F0F0" FontSize="14" FontWeight="Bold" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush ImageSource="NewFolder1/image.png"/>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

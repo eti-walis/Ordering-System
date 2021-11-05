@@ -1,0 +1,58 @@
+C:\Users\hadarch\Downloads\BasicLayers\BasicLayers\DAL\BE\bin\Debug\BE.dll
+C:\Users\hadarch\Downloads\BasicLayers\BasicLayers\DAL\BE\bin\Debug\BE.pdb
+C:\Users\hadarch\Downloads\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\hadarch\Downloads\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\hadarch\Downloads\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.dll
+C:\Users\hadarch\Downloads\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.pdb
+C:\Users\sbriskma\Downloads\BasicLayers (1)\BasicLayers\BasicLayers\DAL\BE\bin\Debug\BE.dll
+C:\Users\sbriskma\Downloads\BasicLayers (1)\BasicLayers\BasicLayers\DAL\BE\bin\Debug\BE.pdb
+C:\Users\sbriskma\Downloads\BasicLayers (1)\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\sbriskma\Downloads\BasicLayers (1)\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\sbriskma\Downloads\BasicLayers (1)\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.dll
+C:\Users\sbriskma\Downloads\BasicLayers (1)\BasicLayers\BasicLayers\DAL\BE\obj\Debug\BE.pdb
+C:\Users\ewalis\Downloads\project\project\BE\bin\Debug\BE.dll
+C:\Users\ewalis\Downloads\project\project\BE\bin\Debug\BE.pdb
+C:\Users\ewalis\Downloads\project\project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\ewalis\Downloads\project\project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\ewalis\Downloads\project\project\BE\obj\Debug\BE.dll
+C:\Users\ewalis\Downloads\project\project\BE\obj\Debug\BE.pdb
+C:\Users\sbriskma\Desktop\project\BE\bin\Debug\BE.dll
+C:\Users\sbriskma\Desktop\project\BE\bin\Debug\BE.pdb
+C:\Users\sbriskma\Desktop\project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\sbriskma\Desktop\project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\sbriskma\Desktop\project\BE\obj\Debug\BE.dll
+C:\Users\sbriskma\Desktop\project\BE\obj\Debug\BE.pdb
+C:\Users\shani\Desktop\project\BE\bin\Debug\BE.dll
+C:\Users\shani\Desktop\project\BE\bin\Debug\BE.pdb
+C:\Users\shani\Desktop\project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\shani\Desktop\project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\project\BE\obj\Debug\BE.dll
+C:\Users\shani\Desktop\project\BE\obj\Debug\BE.pdb
+C:\Users\User\Desktop\project\BE\bin\Debug\BE.dll
+C:\Users\User\Desktop\project\BE\bin\Debug\BE.pdb
+C:\Users\User\Desktop\project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\User\Desktop\project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\project\BE\obj\Debug\BE.dll
+C:\Users\User\Desktop\project\BE\obj\Debug\BE.pdb
+C:\Users\sbriskma\Downloads\project\BE\bin\Debug\BE.dll
+C:\Users\sbriskma\Downloads\project\BE\bin\Debug\BE.pdb
+C:\Users\sbriskma\Downloads\project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\sbriskma\Downloads\project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\sbriskma\Downloads\project\BE\obj\Debug\BE.dll
+C:\Users\sbriskma\Downloads\project\BE\obj\Debug\BE.pdb
+C:\Users\shani\Downloads\project\BE\bin\Debug\BE.dll
+C:\Users\shani\Downloads\project\BE\bin\Debug\BE.pdb
+C:\Users\shani\Downloads\project\BE\obj\Debug\BE.csprojAssemblyReference.cache
+C:\Users\shani\Downloads\project\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\shani\Downloads\project\BE\obj\Debug\BE.dll
+C:\Users\shani\Downloads\project\BE\obj\Debug\BE.pdb
+C:\Users\User\Desktop\New folder\BE\bin\Debug\BE.dll
+C:\Users\User\Desktop\New folder\BE\bin\Debug\BE.pdb
+C:\Users\User\Desktop\New folder\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\BE\obj\Debug\BE.dll
+C:\Users\User\Desktop\New folder\BE\obj\Debug\BE.pdb
+C:\Users\shani\Desktop\New folder\BE\bin\Debug\BE.dll
+C:\Users\shani\Desktop\New folder\BE\bin\Debug\BE.pdb
+C:\Users\shani\Desktop\New folder\BE\obj\Debug\BE.csproj.CoreCompileInputs.cache
+C:\Users\shani\Desktop\New folder\BE\obj\Debug\BE.dll
+C:\Users\shani\Desktop\New folder\BE\obj\Debug\BE.pdb
